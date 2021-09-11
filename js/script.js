@@ -5,6 +5,8 @@ for (let count = 1; count <= 100; count++){
         console.log(`処理回数：${count}回目　アホ`);
     }else if(count % 5 == 0 ){
         console.log(`処理回数：${count}回目　犬`);
+    }else{
+        console.log(`処理回数：${count}回目`);
     }
 }
 
